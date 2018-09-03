@@ -21,5 +21,11 @@ namespace ProductForm
         {
 
         }
+
+        private void Form_Load(object sender, EventArgs e)
+        {
+            comboBox1.Items.Add("HouseHold");
+            comboBox1.Items.Add("Electronics");
+        }
     }
 }
